@@ -1,0 +1,37 @@
+[user]
+	email = djoo@lgcns.com
+	name = victor
+[color]
+	ui = auto
+[core]
+	editor = nvim
+	autocrlf = input
+	# pager = delta
+	untrackedCache = true
+	fsmonitor = true
+[credential]
+	helper = store
+[merge]
+	tool = vimdiff
+# [pager]
+# 	diff = true
+# 	branch = false
+# 	stash = false
+[pull]
+	rebase = false
+[push]
+	default = simple
+[alias]
+	uncommit = reset HEAD~
+	ls = log --graph --all --pretty=format:'\
+%C(red)%h%C(reset) \
+-%C(yellow)%d%C(reset) \
+%C(green)(%cr)%C(reset) \
+%C(blue)<%an>%C(reset) \
+%s'
+	st = status --short --branch
+	ds = diff --stat
+	last = log --oneline -10
+	fa = fetch --all
+# [delta]
+# 	dark = true
