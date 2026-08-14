@@ -1,4 +1,4 @@
-# lrm_service3 handover
+[# lrm_service3 handover
 
 `lrm_service3`는 LRM 유사사례 검색 workflow다. 현재 프로젝트명으로 비슷한 프로젝트를 찾고, 그 프로젝트들의 기존 리스크 검토 내용을 모아 FE가 카드 형태로 보여줄 `metadata.projects[]`를 만든다.
 
@@ -766,3 +766,4 @@ X-Api-Key: {{apiKey}}
 ```
 
 Now we can guarantee: 위 caveat을 알고 있으면 "검색 결과 없음", "markdown 없음", "LLM formatting 생략"을 실제 장애와 구분할 수 있다.
+](https://wire.lgcns.com/bitbucket/projects/MSLAUNCH/repos/workflow-goal/browse)
