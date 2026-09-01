@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interactive HTML Deck"
+  short_description: "Create polished animated single-file HTML presentations"
+  brand_color: "#72A7FF"
